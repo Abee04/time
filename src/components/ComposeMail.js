@@ -40,7 +40,7 @@ const ComposeMail = () => {
     }
 
     try {
-      const response = await fetch("/schedule-email", {
+      const response = await fetch("https://backend-2-o2f6.onrender.com/schedule-email", {
         method: "POST",
         body: formData,
       });
